@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Internal Server Error</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<!--<link href="/css/main.css" rel="stylesheet">-->
+		<style>
+            @font-face {
+                font-family: "Roboto Flex";
+                src: url("https://pixelambacht.nl/remote/RobotoFlex[slnt,wdth,wght,opsz].woff2")
+                format("woff2 supports variations"),
+                url("https://pixelambacht.nl/remote/RobotoFlex[slnt,wdth,wght,opsz].woff2")
+                format("woff2-variations");
+                font-weight: 100 1000;
+                font-stretch: 25% 151%;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            @media (prefers-color-scheme: light) {
+                html, body {
+                    background-color: #fff6e5;
+                    color: #003359;
+                }
+            }
+            
+            @media (prefers-color-scheme: dark) {
+                html, body {
+                    background-color: #001a2c;
+                    color: #ffffff;
+                }
+            }
+            
+            html, body {
+                height: 100vh;
+                width: 100%;
+                font-family: 'Roboto Flex', sans-serif;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                overflow: hidden;
+            }
+            
+            .NF-Message {
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            
+            .NF-Message h1 {
+                margin-bottom: 10px;
+                font-size: 35px;
+            }
+            
+            .NF-Message p {
+                font-size: 20px;
+            }
+            
+            .NF-Center {
+                height: 400px;
+                width: 100%;
+                font-family: 'Roboto Flex', sans-serif;
+                margin-bottom: 20px;
+                
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            .NF-Section {
+                white-space: nowrap;
+            }
+            
+            
+            .NF-Table {
+                margin-right: -50px;
+                border-collapse: separate;
+                border-spacing: 50px 0;
+                
+                display: inline-block;
+                vertical-align: top;
+                
+                animation: carousel 30s linear infinite;
+            }
+            
+            
+            .NF-TableRow {
+            }
+            
+            
+            .NF-TableColumn {
+                display:table-cell;
+                width: 230px;
+                height: 110px;
+                flex-shrink: 0;
+                flex-grow: 0;
+            }
+            
+            
+            .NF-Span1, .NF-Span2 {
+                display: inline-block;
+                text-align: center;
+                user-select: none;
+                vertical-align:middle;
+                
+                flex-shrink: 0;
+                flex-grow: 0;
+                width: 230px;
+                height: 110px;
+                font-size: 100px;
+            }
+            
+            .NF-Span1 {
+                animation: breathe1 2.5s infinite ease-in-out;
+            }
+            
+            .NF-Span2 {
+                animation: breathe2 2.5s infinite ease-in-out;
+            }
+            
+            
+            @keyframes carousel {
+                0% {
+                    transform: translate3d(0, 0, 0);
+                }
+                100% {
+                    transform: translate3d(calc(1 * -2248px), 0, 0);
+                }
+            }
+            
+            
+            @keyframes breathe1 {
+                0% {
+                    font-variation-settings: 'wght' 100 ;
+                }
+                60% {
+                    font-variation-settings: 'wght' 1000;
+                }
+                
+                100% {
+                    font-variation-settings: 'wght' 100;
+                }
+            }
+            
+            @keyframes breathe2 {
+                0% {
+                    font-variation-settings: 'wght' 1000;
+                }
+                60% {
+                    font-variation-settings: 'wght' 100;
+                }
+                
+                100% {
+                    font-variation-settings: 'wght' 1000;
+                }
+            }
+		</style>
+	</head>
+	
+	<body>
+		<div class="NF-Message">
+			<h1>Internal Server Error</h1>
+			<p>Oops! Something went wrong...</p>
+			<p>We seem to be having some technical difficulties. Hang tight.</p>
+		</div>
+		<div class="NF-Center">
+			<div class="NF-Section">
+				<table class="NF-Table">
+					<tr class="NF-TableRow">
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+					</tr>
+					
+					<tr class="NF-TableRow">
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+					</tr>
+					
+					<tr class="NF-TableRow">
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+					</tr>
+				</table>
+				
+				
+				<table class="NF-Table">
+					<tr class="NF-TableRow">
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+					</tr>
+					
+					<tr class="NF-TableRow">
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+					</tr>
+					
+					<tr class="NF-TableRow">
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span1">50x</span>
+						</td>
+						<td class="NF-TableColumn">
+							<span class="NF-Span2">50x</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+	
+</html>
