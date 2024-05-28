@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: liuuner/webuntu
+          images: liuuner/welcome
 
       - name: Build and push Docker image
         id: push
