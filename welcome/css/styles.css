@@ -40,10 +40,16 @@ html {
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
+    color-scheme: dark;
+    scroll-behavior: smooth;
 }
 
 body {
     position: relative;
+}
+
+main {
+    padding-top: 50px;
 }
 
 h1, h2, h3, h4 {
@@ -99,7 +105,7 @@ a {
 }
 
 #nonparallax {
-    background-image: url('../assets/layers/nonparallax.png');
+    background-image: url('../assets/layers/original/nonparallax.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -116,6 +122,7 @@ a {
     background-repeat: repeat-x;
     width: 100%;
     position: absolute;
+    transition: 50ms linear;
 }
 
 .keyart_layer.parallax {
@@ -123,47 +130,47 @@ a {
 }
 
         #keyart-1 {
-            background-image: url('../assets/layers/layer1.png');
+            background-image: url('../assets/layers/original/layer1.png');
         }
 
         #keyart-2 {
-            background-image: url('../assets/layers/layer2.png');
+            background-image: url('../assets/layers/original/layer2.png');
         }
 
         #keyart-3 {
-            background-image: url('../assets/layers/layer3.png');
+            background-image: url('../assets/layers/original/layer3.png');
         }
 
         #keyart-4 {
-            background-image: url('../assets/layers/layer4.png');
+            background-image: url('../assets/layers/original/layer4.png');
         }
 
         #keyart-5 {
-            background-image: url('../assets/layers/layer5.png');
+            background-image: url('../assets/layers/original/layer5.png');
         }
 
         #keyart-6 {
-            background-image: url('../assets/layers/layer6.png');
+            background-image: url('../assets/layers/original/layer6.png');
         }
 
         #keyart-7 {
-            background-image: url('../assets/layers/layer7.png');
+            background-image: url('../assets/layers/original/layer7.png');
         }
 
         #keyart-8 {
-            background-image: url('../assets/layers/layer8.png');
+            background-image: url('../assets/layers/original/layer8.png');
         }
 
         #keyart-9 {
-            background-image: url('../assets/layers/layer9.png');
+            background-image: url('../assets/layers/original/layer9.png');
         }
 
         #keyart-10 {
-            background-image: url('../assets/layers/layer10.png');
+            background-image: url('../assets/layers/original/layer10.png');
         }
 
         #keyart-11 {
-            background-image: url('../assets/layers/layer11.png');
+            background-image: url('../assets/layers/original/layer11.png');
             position: fixed;
         }
 
