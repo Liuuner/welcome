@@ -101,7 +101,7 @@ a {
 }
 
 #nonparallax {
-    background-image: url('../assets/layers/scaled/nonparallax.png');
+    background-image: url('../assets/layers/compressed/nonparallax.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -118,7 +118,7 @@ a {
     background-repeat: repeat-x;
     width: 100%;
     position: absolute;
-    transition: 50ms linear;
+    /*transition: 50ms linear;*/
 }
 
 .keyart_layer.parallax {
@@ -126,52 +126,61 @@ a {
 }
 
 #keyart-1 {
-    background-image: url('../assets/layers/scaled/layer1.png');
+    background-image: url('../assets/layers/compressed/layer1.webp');
 }
 
 #keyart-2 {
-    background-image: url('../assets/layers/scaled/layer2.png');
+    background-image: url('../assets/layers/compressed/layer2.webp');
 }
 
 #keyart-3 {
-    background-image: url('../assets/layers/scaled/layer3.png');
+    background-image: url('../assets/layers/compressed/layer3.webp');
 }
 
 #keyart-4 {
-    background-image: url('../assets/layers/scaled/layer4.png');
+    background-image: url('../assets/layers/compressed/layer4.webp');
 }
 
 #keyart-5 {
-    background-image: url('../assets/layers/scaled/layer5.png');
+    background-image: url('../assets/layers/compressed/layer5.webp');
 }
 
 #keyart-6 {
-    background-image: url('../assets/layers/scaled/layer6.png');
+    background-image: url('../assets/layers/compressed/layer6.webp');
 }
 
 #keyart-7 {
-    background-image: url('../assets/layers/scaled/layer7.png');
+    background-image: url('../assets/layers/compressed/layer7.webp');
 }
 
 #keyart-8 {
-    background-image: url('../assets/layers/scaled/layer8.png');
+    background-image: url('../assets/layers/compressed/layer8.webp');
 }
 
 #keyart-9 {
-    background-image: url('../assets/layers/scaled/layer9.png');
+    background-image: url('../assets/layers/compressed/layer9.webp');
 }
 
 #keyart-10 {
-    background-image: url('../assets/layers/scaled/layer10.png');
+    background-image: url('../assets/layers/compressed/layer10.webp');
 }
 
 #keyart-11 {
-    background-image: url('../assets/layers/scaled/layer11.png');
+    background-image: url('../assets/layers/compressed/layer11.webp');
     position: fixed;
 }
 
 
 /* MAIN STRUCTURE */
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    aspect-ratio: 1/1;
+    height: 150px;
+    z-index: 100;
+}
+
 #maincontain {
     background-color: #001a2c;
     position: relative;
